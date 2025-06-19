@@ -1,0 +1,70 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>REDACTED | Official Site</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="nav">
+    <div class="logo">REDACTED</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#drops">Drops</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>  <section id="home" class="hero">
+    <h1>REDACTED</h1>
+    <p>Clothing made in silence. Printed with purpose.</p>
+    <a href="#drops" class="btn">Enter Drop</a>
+  </section>  <section id="about" class="info">
+    <h2>About Us</h2>
+    <p>
+      REDACTED is a clothing brand from Heilbron, Free State. Started by Arantes,
+      Lindo, and Mosa, we create simple but sharp streetwear. We design, label,
+      print, and handle all work ourselves.
+    </p>
+    <ul class="roles">
+      <li><strong>Arantes:</strong> Dev, Design, Layout</li>
+      <li><strong>Lindo:</strong> Manager – Orders, Payments, Logistics</li>
+      <li><strong>Mosa:</strong> Promotion, Marketing</li>
+    </ul>
+  </section>  <section id="drops" class="drops">
+    <h2>Latest Drops</h2>
+    <div class="drop-grid">
+      <div class="drop-item">
+        <img src="assets/white-tee.png" alt="White Tee" />
+        <h3>Classic White</h3>
+        <p>Clean print. Our label. Limited stock.</p>
+        <button class="buy-btn">Order</button>
+      </div>
+      <div class="drop-item">
+        <img src="assets/black-tee.png" alt="Black Tee" />
+        <h3>Stealth Black</h3>
+        <p>Dark as the motive. Minimal and bold.</p>
+        <button class="buy-btn">Order</button>
+      </div>
+      <div class="drop-item">
+        <img src="assets/logo-hoodie.png" alt="Logo Hoodie" />
+        <h3>Logo Hoodie</h3>
+        <p>REDACTED logo front & back. Heavy print. Limited run.</p>
+        <button class="buy-btn">Order</button>
+      </div>
+    </div>
+  </section>  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>For orders or custom work, message Lindo on WhatsApp or hit our official IG.</p>
+    <ul class="contact-list">
+      <li><strong>WhatsApp:</strong> +27 xxx xxx xxxx</li>
+      <li><strong>Instagram:</strong> <a href="https://instagram.com/redactedwear" target="_blank">@redactedwear</a></li>
+    </ul>
+  </section>  <footer class="footer">
+    <p>&copy; 2025 REDACTED. Site by Arantes. Orders managed by Lindo. Promo by Mosa.</p>
+  </footer>
+</body>
+</html>

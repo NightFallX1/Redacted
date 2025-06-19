@@ -1,0 +1,6 @@
+// Basic animation + smooth scroll for REDACTED
+
+document.addEventListener("DOMContentLoaded", () => { // Smooth scrolling document.querySelectorAll('a[href^="#"]').forEach(anchor => { anchor.addEventListener("click", function (e) { e.preventDefault(); document.querySelector(this.getAttribute("href")).scrollIntoView({ behavior: "smooth", }); }); });
+
+// Simple animation on load const hero = document.querySelector(".hero"); hero.style.opacity = 0; hero.style.transition = "opacity 1s ease-in-out"; setTimeout(() => { hero.style.opacity = 1; }, 200); });
+
